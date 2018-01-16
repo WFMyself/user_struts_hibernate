@@ -1,0 +1,148 @@
+/*
+列表
+**/
+body {
+	margin: 0;
+	/*外边距*/
+	padding: 0;
+	/*内边距*/
+}
+
+a{
+	text-decoration: none;
+}
+#top {
+	width: 100%;
+	height: 80px;
+	background-color: #4C99C1;
+	color: #FFFFCC;
+
+}
+#top .img{
+	float: left;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+#top .administer{
+	line-height: 80px;
+	height: 80px;
+	float: left;
+	margin-left: 40px;
+	font-size: 24px;
+
+}
+#top .help{
+	line-height: 80px;
+	height: 80px;
+	float: right;
+	margin-right: 40px;
+}
+
+#menu {
+	width: 10%;
+	height:600px;
+	background-color: #EFEFEF;
+	float: left;
+	line-height: 50px;  /*固定行高*/
+	text-align: center;
+}
+#menu .avatar{
+	margin-top: 200%;
+}
+#menu .avatar p{
+	margin-top: -10px;
+}
+#content{
+	width: 89%;
+	height: 600px;
+	float: right;
+}
+.search{
+	margin: 20px;
+}
+.user{
+	margin: 20px;
+	text-align: center;
+}
+button{
+	width: 80px;
+}
+
+/*
+表单
+**/
+.container {
+	margin: 0 auto;
+	width: 89%;
+	height: 600px;
+
+}
+
+.container h1 {
+	font-size: 25px;
+	font-weight: 700;
+	height: 60px;
+	line-height: 60px;
+	background-size: 60px;
+	text-align: center;
+}
+
+button {
+	width: 80px;
+	height: 25px;
+	margin: 15px;
+}
+
+.clear {
+	clear: both;
+}
+
+form {
+	width: 100%;
+}
+
+.input {
+	width: 70%;
+	margin-top: 25px;
+}
+
+.input-label {
+	text-align: right;
+}
+
+.input_value {
+	width: 70%;
+	height: 30px;
+	font-size: 14px;
+}
+
+.gender {
+	width: 230px;
+	float: left;
+	text-align: right;
+	margin-left: 10px;
+}
+
+.radio-gender {
+	float: left;
+	text-align: left;
+}
+
+.radio-gender label {
+	margin-right: 20px;
+}
+.control {
+	margin-left: 20%;
+}
+.list, .add, .analyze {
+	border:none;
+	color: #87cefa;
+	background-color: #EFEFEF;
+	font-size: 20px;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+} 
+
+
+
